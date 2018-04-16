@@ -1,3 +1,5 @@
+package vue;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -36,7 +38,6 @@ public class Acceuil extends javax.swing.JFrame {
         Recherche.setBackground(new java.awt.Color(0, 255, 204));
         Recherche.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         Recherche.setForeground(new java.awt.Color(0, 153, 0));
-        Recherche.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bouton-rond-vert-mou-de-la-meilleure-qualité-d-icône-loupe-99957544.jpg"))); // NOI18N
         Recherche.setText("Recherche");
         Recherche.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -47,7 +48,6 @@ public class Acceuil extends javax.swing.JFrame {
         Mise_a_jour.setBackground(new java.awt.Color(0, 255, 204));
         Mise_a_jour.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         Mise_a_jour.setForeground(new java.awt.Color(255, 0, 51));
-        Mise_a_jour.setIcon(new javax.swing.ImageIcon(getClass().getResource("/refresh_update_15608.png"))); // NOI18N
         Mise_a_jour.setText("Mise à jour");
         Mise_a_jour.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,7 +58,6 @@ public class Acceuil extends javax.swing.JFrame {
         Reporting.setBackground(new java.awt.Color(0, 255, 204));
         Reporting.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         Reporting.setForeground(new java.awt.Color(0, 153, 204));
-        Reporting.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sans titre.png"))); // NOI18N
         Reporting.setText("Reporting");
         Reporting.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
